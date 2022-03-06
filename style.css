@@ -156,6 +156,7 @@ main {
     color: #757575;
 }
 
+
 .main-currency-table,
 .second-currency-table {
     width: 70%;
@@ -413,14 +414,15 @@ main {
 }
 
 .bitcoin-img-container {
-width: 100%;
-min-width: 300px;
-height: 60vh;
-background-image: url(./assets/assets/img/bitcoinbaby2x.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-}
+    width: 100%;
+    min-width: 300px;
+    height: 60vh;
+    background-image: url(./assets/assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
 
 .bitcoin-img-container h2 {
     padding-top: 60px;
@@ -431,10 +433,10 @@ background-repeat: no-repeat;
 }
 
 .main-plans-container {
-width: 100%;
-min-width: 320px;
-padding-bottom: 70px;
-text-align: center;
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
 
 }
 
@@ -464,8 +466,8 @@ text-align: center;
 .plans-container--slider {
     display: flex;
     height: 316px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
@@ -643,8 +645,6 @@ footer .left ul {
     text-decoration: none;
     color: var(--just-white);
 }
-
-
 
 
 
